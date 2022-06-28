@@ -1,18 +1,12 @@
-# tailwind
+# coc-twind
 
-Add completion for tailwind css
+Add completion for twind css, this useful for react projects for example
+
+<img src="./demo.png" width=900px/>
 
 ## Install
 
-`:CocInstall tailwind`
-
-## Keymaps
-
-`nmap <silent> <C-l> <Plug>(coc-tailwind-keymap)`
-
-## Lists
-
-`:CocList demo_list`
+`Plug 'sigmaSd/coc-twind', {'do': 'yarn install --frozen-lockfile'}`
 
 ## License
 
